@@ -1,5 +1,5 @@
 pipeline{
-	agent 'Android_Agent'
+	agent any
 
 
 	stages{
