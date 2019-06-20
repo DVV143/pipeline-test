@@ -1,10 +1,7 @@
 pipeline{
-	agent {
-    node {
-        label 'Android_Agent'
-        customWorkspace '/home/root/'
-    }
-}
+	agent any
+    
+
 
 
 	stages{
